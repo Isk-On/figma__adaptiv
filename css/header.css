@@ -1,0 +1,79 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+ul {
+  display: flex;
+
+  gap: 15px;
+
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #000;
+
+  width: 170px;
+  height: 70px;
+
+  border: 2px solid #000;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+/* learn-menu */
+
+.learn-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.bulb {
+  width: 80px;
+  height: 80px;
+}
+
+.text__and__bulb {
+  display: flex;
+  align-items: end;
+}
+
+.left-menu p {
+  color: #8f95a5;
+}
+
+.learn__btn {
+  background-color: var(--black);
+  color: #fff;
+
+  border: none;
+
+  font-weight: 500;
+}
+
+.burger__menu {
+  display: none;
+}
+
+/* skills-block */

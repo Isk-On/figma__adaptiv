@@ -1,0 +1,14 @@
+footer {
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h3 {
+  color: #8f95a5;
+
+  font-size: 19px;
+  font-weight: 300;
+}
